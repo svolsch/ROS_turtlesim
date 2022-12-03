@@ -11,7 +11,7 @@ def move_turtle(line_vel, ang_vel):
 
     while True:
         vel.linear.x = line_vel    
-        vel.linear.y = 2
+        vel.linear.y = 0
         vel.linear.z = 0
 
         vel.angular.x = 0
